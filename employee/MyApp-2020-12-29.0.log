@@ -1,0 +1,91 @@
+2020-12-29 21:23:08.386  INFO 11220 --- [main] c.employee.employee.EmployeeApplication  : Starting EmployeeApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 11220 (C:\Users\vasuvaddi123\eclipse-workspace\employee\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\employee)
+2020-12-29 21:23:08.391  INFO 11220 --- [main] c.employee.employee.EmployeeApplication  : No active profile set, falling back to default profiles: default
+2020-12-29 21:23:10.463  INFO 11220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-29 21:23:10.586  INFO 11220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interfaces.
+2020-12-29 21:23:11.870  INFO 11220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-12-29 21:23:11.893  INFO 11220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-29 21:23:11.894  INFO 11220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-29 21:23:11.897  INFO 11220 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-29 21:23:11.898  INFO 11220 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-29 21:23:11.899  INFO 11220 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-29 21:23:11.908  INFO 11220 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-29 21:23:12.189  INFO 11220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-29 21:23:12.190  INFO 11220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3625 ms
+2020-12-29 21:23:12.585  INFO 11220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-29 21:23:12.677  INFO 11220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-29 21:23:13.004  INFO 11220 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-29 21:23:13.234  INFO 11220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-29 21:23:13.936  INFO 11220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-29 21:23:13.962  INFO 11220 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-29 21:23:15.628  INFO 11220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-29 21:23:15.642  INFO 11220 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-29 21:23:16.430  WARN 11220 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-29 21:23:16.640  INFO 11220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 21:23:16.953  WARN 11220 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-29 21:23:17.164  INFO 11220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-29 21:23:17.181  INFO 11220 --- [main] c.employee.employee.EmployeeApplication  : Started EmployeeApplication in 9.914 seconds (JVM running for 10.997)
+2020-12-29 21:23:51.310  INFO 11220 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 21:23:51.311  INFO 11220 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-29 21:23:51.313  INFO 11220 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-12-29 21:23:54.932  INFO 11220 --- [http-nio-9090-exec-2] c.e.e.controller.EmployeeController      : Fetching all Employees
+2020-12-29 21:25:40.995  INFO 18804 --- [main] c.employee.employee.EmployeeApplication  : Starting EmployeeApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 18804 (C:\Users\vasuvaddi123\eclipse-workspace\employee\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\employee)
+2020-12-29 21:25:41.000  INFO 18804 --- [main] c.employee.employee.EmployeeApplication  : No active profile set, falling back to default profiles: default
+2020-12-29 21:25:42.770  INFO 18804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-29 21:25:42.888  INFO 18804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interfaces.
+2020-12-29 21:25:44.146  INFO 18804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-12-29 21:25:44.167  INFO 18804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-29 21:25:44.168  INFO 18804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-29 21:25:44.171  INFO 18804 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-29 21:25:44.172  INFO 18804 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-29 21:25:44.172  INFO 18804 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-29 21:25:44.180  INFO 18804 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-29 21:25:44.444  INFO 18804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-29 21:25:44.445  INFO 18804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3317 ms
+2020-12-29 21:25:44.834  INFO 18804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-29 21:25:44.951  INFO 18804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-29 21:25:45.380  INFO 18804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-29 21:25:45.616  INFO 18804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-29 21:25:46.267  INFO 18804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-29 21:25:46.294  INFO 18804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-29 21:25:47.865  INFO 18804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-29 21:25:47.882  INFO 18804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-29 21:25:48.648  WARN 18804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-29 21:25:48.858  INFO 18804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 21:25:49.180  WARN 18804 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-29 21:25:49.405  INFO 18804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-29 21:25:49.421  INFO 18804 --- [main] c.employee.employee.EmployeeApplication  : Started EmployeeApplication in 9.49 seconds (JVM running for 10.571)
+2020-12-29 21:25:59.702  INFO 18804 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 21:25:59.703  INFO 18804 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-29 21:25:59.706  INFO 18804 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-12-29 21:26:03.401  INFO 18804 --- [http-nio-9090-exec-3] c.e.e.controller.EmployeeController      : Fetching all Employees
+2020-12-29 21:28:26.403  INFO 18804 --- [http-nio-9090-exec-3] c.e.e.controller.EmployeeController      : Record not found
+2020-12-29 21:31:35.857  INFO 28564 --- [main] c.employee.employee.EmployeeApplication  : Starting EmployeeApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 28564 (C:\Users\vasuvaddi123\eclipse-workspace\employee\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\employee)
+2020-12-29 21:31:35.864  INFO 28564 --- [main] c.employee.employee.EmployeeApplication  : No active profile set, falling back to default profiles: default
+2020-12-29 21:31:38.030  INFO 28564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-29 21:31:38.143  INFO 28564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces.
+2020-12-29 21:31:39.382  INFO 28564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-12-29 21:31:39.402  INFO 28564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-29 21:31:39.403  INFO 28564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-29 21:31:39.406  INFO 28564 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-29 21:31:39.407  INFO 28564 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-29 21:31:39.407  INFO 28564 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-29 21:31:39.413  INFO 28564 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-29 21:31:39.659  INFO 28564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-29 21:31:39.660  INFO 28564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3643 ms
+2020-12-29 21:31:40.033  INFO 28564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-29 21:31:40.143  INFO 28564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-29 21:31:40.569  INFO 28564 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-29 21:31:40.820  INFO 28564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-29 21:31:41.451  INFO 28564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-29 21:31:41.478  INFO 28564 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-29 21:31:43.029  INFO 28564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-29 21:31:43.045  INFO 28564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-29 21:31:43.810  WARN 28564 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-29 21:31:44.005  INFO 28564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 21:31:44.313  WARN 28564 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-29 21:31:44.527  INFO 28564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-29 21:31:44.542  INFO 28564 --- [main] c.employee.employee.EmployeeApplication  : Started EmployeeApplication in 9.815 seconds (JVM running for 10.912)
+2020-12-29 21:33:04.497  INFO 28564 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 21:33:04.498  INFO 28564 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-29 21:33:04.501  INFO 28564 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-12-29 21:33:07.999  INFO 28564 --- [http-nio-9090-exec-2] c.e.e.controller.EmployeeController      : Fetching all Employees
